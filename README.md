@@ -3,9 +3,10 @@
 A **UIKit-based iOS application** that displays a list of popular movies, their posters, and detailed descriptions. This project demonstrates the use of **UITableView**, **NavigationController**, and basic data binding in UIKit.
 
 ## Features ✨  
-- **Movie List View**: Displays a scrollable list of movies with their posters and titles.  
+- **Movie List View**: Displays a scrollable list of movies with their posters and titles, fetched dynamically from a remote API.  
 - **Movie Details View**: Shows a movie's poster, title, and description in a detailed view upon selection.  
-- **Clean Navigation**: Smooth transition between the list and detail views using a navigation controller.  
+- **Clean Navigation**: Smooth transition between the list and detail views using a navigation controller.
+- **Networking**: Retrieves movie data using URLSession.
 
 ## Screenshots 📸  
 ### Movie List Screen  
@@ -19,7 +20,8 @@ A **UIKit-based iOS application** that displays a list of popular movies, their 
 ## Tech Stack 🛠️  
 - **Language**: Swift  
 - **Framework**: UIKit  
-- **Architecture**: MVC (Model-View-Controller)  
+- **Architecture**: MVC (Model-View-Controller)
+- **Networking**: URLSession for API calls
 - **UI Components**: `UITableView`, `UIImageView`, `UILabel`, `UIViewController`  
 
 ## How to Run 🏃‍♂️  
